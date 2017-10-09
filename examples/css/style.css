@@ -1,19 +1,36 @@
 /* External CSS file*/
 
-* {
-  font-size: 18px;
+h1 {
+    font-size: 40px;
 }
-
 h2 {
-  color: orange;
+  color: Purple;
+}
+h3 {
+  color: blue;
+}
+html{
+  background:url('20160328_071905.jpg') no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+.content{
+  color:white;
+  padding:0px;
+}
+/* Combination Example: Group Selectors */
+.blueText {
+  color: blue;
 }
 
-
-/* Combination Example: Group Selectors */
-
+#uniqueGreen {
+  color: green;
+}
 span, .lightText {
   font-weight: 200;
-  color: darkgray;
+  color: white;
 }
 
 
@@ -40,8 +57,7 @@ article>p {
 
 /* Pseudo Class Example */
 
-.pseudoClassExample {
-  margin-top: 15px;
+/*  margin-top: 15px;
   width: 200px;
   height: 200px;
   background-color: yellow;
@@ -50,4 +66,4 @@ article>p {
 .pseudoClassExample:hover {
   background-color: orange;
   color: white;
-}
+}*/
